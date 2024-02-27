@@ -13,7 +13,7 @@
 * ======================================================= */
 body {
   font-family: "Quicksand", Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
@@ -235,7 +235,6 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -305,7 +304,7 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
-          font-size: 18px;
+          font-size: 35px;
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 450;
@@ -381,8 +380,7 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 5em;
   clear: both;
   width: 100%;
   display: block; }
@@ -406,7 +404,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -416,7 +414,7 @@ body.offcanvas {
     display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-heading {
-      margin-bottom: 3em; } }
+      margin-bottom: 1em; } }
 
 .heading-meta {
   margin-bottom: 15px;
@@ -740,6 +738,15 @@ body.offcanvas {
   box-shadow: none;
   background: #f2f3f7;
   overflow: visible; }
+
+.nav-pills > li {
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.nav-pills > li > a {
+    padding: 10px;
+}
 
 .progress-bar {
   background: #2c98f0;
